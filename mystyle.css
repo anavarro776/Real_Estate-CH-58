@@ -34,11 +34,13 @@ h2{
     margin: 2rem 0;
  }
  h4{
-   font-size: 1.5rem
+   font-size: 2.6rem
  }
  img{
-   width: auto;
+   max-width: 100%;
  }
+
+
 /*header*/
 header{
 background-image: url(img/header.jpg);
@@ -110,19 +112,38 @@ align-items: center;
     flex-direction: row;
  }
 
- .house-container{
-
+ .houses-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+  
+   background-color: white;
+   gap: 10px;
 
  }
 
  .house-item{
-    background-color:grey;
- }
- .hosue-item-text{
+    background-color:lightgray;
+    border: 1rem white;
+    padding:.2rem;
+    border-style:solid;
+  }  
+   
+ 
+   
+   
+   
+ .house-item-text{
    padding: 1rem;
  }
+  .announcement1{
+    width: 100%;
+  }
+
  ul{
     list-style: none;
+    display: flex;
+    justify-content: space-between;
  }
 
  .btn-see-details{
@@ -130,12 +151,36 @@ align-items: center;
     display: block;
     text-align: center;
     color: white;
+    margin:1rem 1rem 1rem 1rem;
+    padding: 2rem 2rem;
+    
+    
  }
  .price{
     color: green;
     
  }
  .site-footer{
-    background-image: url(img/highlight.jpg);
+    background-image: url(img/encuentra.jpg);
     height: 30vh;
+    color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    padding: 3rem;
+    
  }
+
+.footer-items{
+   margin-top: 6rem ;
+   
+}
+.btn-contact{
+   display: block;
+   background-color: orange;
+   color: white;
+   text-align: center;
+   padding: 2rem 2rem;
+   margin:2rem 2rem;
+
+}
