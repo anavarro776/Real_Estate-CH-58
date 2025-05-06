@@ -7,15 +7,35 @@
     <title>Contact</title>
     </head>
 <body>
-    <header>
-        <h1> Real Estate</h1>
+    <header class="contact-header">
+        
+          <div class="nav-bar">
+           <h1> Real Estate</h1> 
+        <nav>
+          
+            <a href="about.html">About</a>
+            <a href="blog.html"> Blog</a>
+            <a href="contact.html">Contact Us</a>
+         </nav>
+
+        </div>
 
     </header>
 
-    <form>
+<main class="container">
+        <h2> Contact</h2>
+        <div>
+        <p> Fill Out Information</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, culpa veniam inventore cupiditate vero mollitia.</p>
+
+        </div>
+    </main>
+   
+  
+    <form >
         <fieldset>
                 
-        
+            
             <legend>Personal Information</legend>
 
              <div>
@@ -32,7 +52,7 @@
 
         <div>
             <label for="phone"> Phone Number:</label>
-            <input id="phone" type="number" placeholder="--Add Your Password--">
+            <input class="input-number" id="phone" type="number" placeholder="--Add Your Number--">
         </div>
 
        <div>
@@ -44,10 +64,88 @@
             
         </fieldset>
 
+    
+
+    
+        <fieldset>
+           
+                <legend> Product Information</legend>
+               <div>
+                <label for="type"> Type:</label>
+
+           
+            <select>
+
+                <option aria-placeholder=""> --Select An Option--</option>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3"> Option 3</option>
+                
+            </select>
+
+            </div>
+
+
+            <div>
+                <label for="number">Number:</label>
+                <input id="number" type="number">
+
+            </div>
+
+
+        </fieldset>
+
+    
+    
+    <fieldset class="contact-info">
+        <legend>Contact Information</legend>
+       
+
+        <div class="radio-group">
+            
+          
+            Email<input type="radio">
+           
+           Phone <input type="radio">
+            </div>
+            
+       
+
+            <div class="date-hour">
+            <label for="date">Date:</label>
+            <input id="date" type="date">
+              
+           
+        
+              <label for="hour">Hour:</label>
+            <input id="hour" type="time">
+            </div>
+
+      
+        </fieldset>
+
+
+
+
     </form>
+
 
     <footer>
 
+        <nav class="footer-nav-bar">
+            <h3> Powerd By <a class="footer-a" href="zillow.com"> Zillow</a></h3>
+            <h3> Copyright&copy; 2024 <a class="footer-a" href="privacy-policy">Privacy Policy</a> </h3>
+         
+             <div>
+                <a  href="https://www.facebook.com/>FaceBook">Facebook</a>
+                <a href="linkdin.com">Linkdin</a>
+                <a href="youtube.com"> Youtube</a>
+             </div>
+
+        </nav>
+  
+
     </footer>
+
 </body>
 </html>

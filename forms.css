@@ -7,6 +7,7 @@ html{
 
 *{
     margin: 0;
+    
 }
 
 body{
@@ -43,12 +44,166 @@ h2{
 
 
 div{
-    margin-left: 16px;
+
+   
+
     margin-bottom: 16px;
     font-size: 3,2rem;
+    padding: 2px;
+    padding-left: 20px;
+  
+   
+}
+.vl{
+    border-left: 6px solid black;
+
 }
 
+/*forms*/
 form{
+   display: flex;
+   flex-direction: column;
+   
     background-color: lightgray;
+    border-radius:1rem;
+    max-width: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+   font-size: 1.6rem;
+   padding: 2rem;
+   margin-bottom: 40px;
+
+
+}
+
+  
+
+label{ 
+    margin: 2rem;
+    margin-right: 20px;
+    margin-bottom: 5px;
+   
     
+}
+  
+  
+input{
+    width: 60%;
+    align-items: center;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+.input-number{
+
+    width: 60%;
+    align-items: center;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+
+select{
+    align-items: center;
+    width: 80%;
+    padding: 1rem;
+}
+
+
+  
+  
+.radio-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.date-hour{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+   width: 100%;
+    padding: 1rem;
+}
+
+
+textarea{
+    width: 80%;
+    align-items: center;
+    padding: 1rem;
+}
+fieldset{
+    
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+}
+/*main*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+
+.contact-header{
+    background-color: orange;
+    padding-left: 20px;
+    height: 30vh;
+    margin-bottom: 1.2rem
+ 
+
+}
+
+.nav-bar{
+padding:1.2rem;
+padding-top: 40px;
+display: flex;
+justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+
+
+/*footer*/
+
+
+footer{
+    
+    background-color: lightgray;
+    height: 15vh;
+}
+.footer-nav-bar{
+    padding-top: 50px;
+    margin-top: 30px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer-a{
+    text-decoration: underline;
+
+}
+
+.vertical{
+    color: solid black;
+    border-left: 6px;
+    height: 200px;
+    position:absolute;
+    left:50%
 }
