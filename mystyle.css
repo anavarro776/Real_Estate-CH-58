@@ -40,7 +40,12 @@ h2{
    max-width: 100%;
  }
 
-
+@media(max-width:786px) {
+   h2,h3,h4{
+      text-align: center;
+   }
+   
+}
 /*header*/
 header{
 background-image: url(img/header.jpg);
@@ -52,6 +57,7 @@ background-position: center center;
 background-size: cover;
 
 }
+
 
 
    
@@ -74,6 +80,13 @@ align-items: center;
     
   
  }  
+
+ @media(max-width:786px){
+   .nav-bar{
+      display: flex;
+      flex-direction: column;
+   }
+ }
     
 .menu a{
  color: white;
@@ -89,6 +102,12 @@ align-items: center;
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media(max-width:786px){
+   .container{
+      width: 90%;
+   }
 }
  .site-item{
     margin-top: 20px;
@@ -112,6 +131,16 @@ align-items: center;
     flex-direction: row;
  }
 
+ @media(max-width:786px){
+   .about-container{
+     
+      flex-direction: column;
+   }
+   .about-item{
+      text-align: center;
+   }
+ }
+
  .houses-container{
    display: flex;
    flex-direction: row;
@@ -120,6 +149,11 @@ align-items: center;
    background-color: white;
    gap: 10px;
 
+ }
+ @media(max-width:786px){
+   .houses-container{
+      flex-direction: column;
+   }
  }
 
  .house-item{
@@ -169,6 +203,11 @@ align-items: center;
   align-items: center;
     padding: 3rem;
     
+ }
+ @media(max-width:786px){
+   .site-footer{
+      flex-direction: column;
+   }
  }
 
 .footer-items{
