@@ -1,0 +1,231 @@
+/*global*/
+html{
+    font-size: 62.5%; /*reset html=/*1 rem =10px*/
+}
+
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+p{
+    line-height: 2;
+    font-size: 2rem;
+}
+
+h1{
+    font-size:  3.2rem;
+}
+
+h2{
+    font-size: 2.6rem;
+    margin: 2rem 0;
+    text-decoration: underline;
+}
+ h3{
+    font-size: 2rem;
+    margin: 2rem 0;
+ }
+ h4{
+   font-size: 2.6rem
+ }
+ img{
+   max-width: 100%;
+ }
+
+@media(max-width:786px) {
+   h2,h3,h4{
+      text-align: center;
+   }
+   
+}
+
+/*Header*/
+header{
+  
+  
+   background-image: url(img/header.jpg);
+    background-position: center;
+    height: 30vh;
+  
+    color: white;
+    font-size: 1rem; 
+}
+.header-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   font-size: 3.2;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+}
+
+.menu a{
+ 
+    margin-right: 3rem;
+    color: white;
+ 
+}
+
+@media(max-width:786px){
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/*containers*/
+
+
+.container{
+    
+    padding: 25px;
+    text-align: center;
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+    height: 25vh;
+    border-radius: 5px;
+    }
+
+    .items-container{
+        display: flex;
+    }
+
+
+  .about-container{
+    display: flex;
+    
+  }
+
+  .about-img{
+    margin-top: 10px;
+    margin-right: 40px;
+max-width: auto;
+border-radius: 30px;
+margin-left: 2rem;
+  }
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 50%;
+    
+}
+
+@media(max-width:786px){
+    .container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    
+    .about-container{
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+      
+    }
+    .about-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: auto;
+    }
+}
+
+
+
+
+
+/*footer*/
+
+
+
+.site-footer{
+    margin-top: 1rem;
+    margin-bottom: 1.5;
+    background-image: url(img/encuentra.jpg);
+    height: 30vh;
+    color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    padding: 3rem;
+    
+ }
+
+ .footer-items{
+    margin-top: 6rem ;
+    padding: 50px;
+    text-align: center;
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    height: 30vh;
+    border-radius: 5px;
+ }
+
+ .btn-contact{
+    display: block;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 2rem 2rem;
+    margin:2rem 2rem;
+ 
+ }
+ @media(max-width:786px){
+    .site-footer{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-items{
+        display: flex;
+        flex-direction: column;
+    }
+
+ }
+ 
